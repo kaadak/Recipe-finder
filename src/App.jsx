@@ -1,7 +1,9 @@
 import React from 'react'
 import Header from './components/Header'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import RecipePage from './pages/RecipePage'
 
 const App = () => {
   return (
@@ -10,6 +12,15 @@ const App = () => {
 
     
         <Header/>
+          <Routes>
+            <Route path='/' element={<HomePage/>}/>
+            <Route path='/about' element={<AboutPage/>}/>
+            <Route path='/recipes' element={<RecipePage/>}/>
+          </Routes>
+        <main>
+
+
+        </main>
 
      
     </div>
