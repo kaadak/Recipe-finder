@@ -145,7 +145,7 @@ const AboutPage = () => {
           Browse Recipes
         </button>
       </section>
-    </div>
+    </div> 
   );
 };
 
