@@ -1,6 +1,7 @@
 import React from "react";
 import { BiRefresh } from "react-icons/bi";
 import Filter from '../components/Filter'
+import RecipeCard from "../components/RecipeCard";
 
 
 const RecipePage = () => {
@@ -36,7 +37,14 @@ const RecipePage = () => {
         </div>
 
       </div>
-      
+
+
+      {/* Recipe Div */}
+
+      <div className="container mx-auto px-4 py-12">
+<RecipeCard/>
+      </div>
+
       </div>
 
       
